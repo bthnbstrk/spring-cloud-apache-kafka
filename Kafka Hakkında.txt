@@ -1,0 +1,21 @@
+Kafka Hakkında
+
+Mesajlar ne kadar saklanır ?
+
+-Mesaj okunsa bile silinmez
+-Zamana veya boyuta göre silinir
+retention.ms = 7 
+
+Dead Letter Topic (DLT) 
+
+Consumer hata alırsa mesaj buraya düşer
+order-created.DLT
+
+Default : At least once - Tekrar olabilir
+
+
+Acknowledgement (Ack) - Mesaj işlendi mi ? 
+
+Default - Otomatik
+AckMode.MANUAL - Sen kontrol edersin,
+
